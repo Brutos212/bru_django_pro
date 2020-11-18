@@ -14,5 +14,3 @@ install:
 
 script:
   - pipenv run flake8
-  - pipenv run flake8 tada
-  - pipenv run flake8 tests
