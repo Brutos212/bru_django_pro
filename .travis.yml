@@ -10,7 +10,7 @@ env:
     - PIPENV_IGNORE_VIRTUALENVS=1
 install:
   - pip install pipenv
-  - pipenv sync --dev
+
 script:
   - pipenv run flake8
   - pipenv run flake8 tada
